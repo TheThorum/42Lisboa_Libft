@@ -6,7 +6,7 @@
 #    By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/15 00:00:15 by mdo-carm          #+#    #+#              #
-#    Updated: 2022/03/14 19:59:55 by mdo-carm         ###   ########.fr        #
+#    Updated: 2022/11/18 20:32:44 by mdo-carm         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,8 +29,6 @@ C_SOURCE = ft_memset.c   ft_strlcat.c     \
            ft_strchr.c   ft_putnbr_fd.c   \
            ft_strrchr.c  ft_strncmp.c     \
            ft_striteri.c ft_strlcpy.c     \
-           
-INCLUDE = libft.h
 
 OBJ = $(C_SOURCE:.c=.o)
 
@@ -42,10 +40,10 @@ CFLAGS = -Wall    \
 
 all: $(NAME)
 
-$(NAME): $(OBJ) $(INCLUDE)
+$(NAME): $(OBJ)
 		ar -rcs $(NAME) $(OBJ)
 
-%.o: %.c $(INCLUDE)
+%.o: %.c
 		$(CC) $(CFLAGS) -c $< -o $@
 
 clean: 
