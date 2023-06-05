@@ -32,19 +32,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*
-int	main(void)
-{
-	char	string_1[] = "Badjoras";
-	char	source_1[] = "Lol";
-	char	string_2[] = "Badjoras";
-	char	source_2[] = "Lol";
-	size_t	size;
-
-	size = 3;
-	memcpy(string_1, source_1, size);
-	printf("Real function: %s\n\n", string_1);
-	ft_memcpy(string_2, source_2, size);
-	printf("My function: %s\n", string_2);
-}
-*/
