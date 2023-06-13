@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 17:00:30 by mdo-carm          #+#    #+#             */
-/*   Updated: 2023/06/13 17:57:06 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 18:04:21 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ int	ft_numberlength(int n)
 
 char	*ft_itoa(int n)
 {
-	char			*s;
-	int				i;
+	char	*s;
+	int		i;
 
 	if (n == 0)
 		return (ft_strdup("0"));
