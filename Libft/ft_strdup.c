@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 18:28:36 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/10/28 21:01:12 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:58:10 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,3 @@ char	*ft_strdup(const char *s)
 	x[i] = '\0';
 	return (x);
 }
-/*
-int	main(void)
-{
-	char s[] = "Hello World!";
-	char *x = ft_strdup(s);
-
-	printf("%s", x);
-}
-*/

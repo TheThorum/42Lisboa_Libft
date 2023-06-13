@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 16:37:58 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/12/22 21:32:28 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:57:41 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
-/*
-int	main(void)
-{
-	char	s[] = "Hello World!";
-
-	ft_putendl_fd(s, 1);
-}
-*/

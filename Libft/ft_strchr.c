@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/26 18:19:12 by mdo-carm          #+#    #+#             */
-/*   Updated: 2022/03/15 22:07:36 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:58:06 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,3 @@ char	*ft_strchr(const char *s, int c)
 		return (&((char *)s)[i]);
 	return (NULL);
 }
-/*
-int	main(void)
-{
-	char	s[] = "BanZana Zebra Zebra";
-	int		c;
-
-	c = ' ';
-	printf("\nOriginal Function: %s\n", strchr(s, c));
-	printf("My Function______: %s\n", ft_strchr(s, c));
-}
-*/

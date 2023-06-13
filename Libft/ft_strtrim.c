@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 15:26:24 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/12/18 00:40:39 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:58:44 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		last_i--;
 	return (ft_substr(s1, first_i, last_i - first_i + 1));
 }
-/*
-int	main(void)
-{
-	char	s1[] = "abbacdebaab";
-	char	set[] = "ab";
-
-	printf("\n%s\n", ft_strtrim(s1, set));
-}
-*/

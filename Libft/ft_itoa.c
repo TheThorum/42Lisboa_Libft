@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 17:00:30 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/12/23 02:32:54 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:57:06 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,13 +46,3 @@ char	*ft_itoa(int n)
 	}
 	return (s);
 }
-/*
-int	main(void)
-{
-	int	n;
-
-	n = 156;
-	printf("\nOriginal number (int):%d:\n", n);
-	printf("\nMy function (string) :%s:\n", ft_itoa(n));
-}
-*/

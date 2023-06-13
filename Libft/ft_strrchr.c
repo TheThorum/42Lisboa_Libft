@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/26 18:19:12 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/12/17 22:17:28 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:58:40 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,3 @@ char	*ft_strrchr(const char *s, int c)
 		return (&((char *)s)[i]);
 	return (NULL);
 }
-/*
-int	main(void)
-{
-	int		c;
-	char * empty = (char*)calloc(1, 1);
-	c = 'V';
-	printf("\nOriginal Function: %s\n", strrchr(empty, c));
-	printf("My Function______: %s\n", ft_strrchr(empty, c));
-}
-*/

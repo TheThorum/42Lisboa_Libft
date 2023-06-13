@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 20:45:10 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/12/22 20:22:42 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:58:48 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	}
 	return (x);
 }
-/*
-int main()
-{
-	char s[] = "Hello";
-	unsigned int start = 3;
-	size_t len = 2;
-
-	printf("\n%s\n\n", ft_substr(s, start, len));
-}
-*/

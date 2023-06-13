@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 16:14:20 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/11/05 16:28:16 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:57:38 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-/*
-int	main(void)
-{
-	char	c = 'a';
-
-	ft_putchar_fd(c, 1);
-}
-*/

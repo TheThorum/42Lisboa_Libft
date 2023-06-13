@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 11:23:08 by mdo-carm          #+#    #+#             */
-/*   Updated: 2022/03/23 20:45:00 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:56:17 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-/*
-int	main(void)
-{
-	const char			x[] = "My name is Miguel Peixoto";
-
-	printf("%zu\n", ft_strlen(x));
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 15:26:59 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/12/22 16:06:22 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:58:17 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,13 +39,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	x[i] = '\0';
 	return (x);
 }
-/*
-int main(void)
-{
-	char	s1[] = "Hello";
-	char	s2[] = " World!";
-
-	printf("\ns1 = %s \ns2 = %s\n\n", s1, s2);
-	printf("My function = %s\n", ft_strjoin(s1, s2));
-}
-*/

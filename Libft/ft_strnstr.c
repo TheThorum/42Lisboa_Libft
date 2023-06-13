@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 11:22:40 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/12/17 23:20:43 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:58:36 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,20 +36,3 @@ char	*ft_strnstr(char *str, char *to_find, size_t len)
 	}
 	return (0);
 }
-/*
-int	main(void)
-{
-	char haystack[30] = "aaabcabcd";
-	char needle[10] = "aabc";
-	char	*x;
-	char	*y;
-	int		len;
-
-	len = 6;
-	x = strnstr(haystack, needle, -1);
-	y = ft_strnstr(haystack, needle, -1);
-	printf("\n%p / %p\n\n", x, y);
-	printf("c : %s$\n\n", x);
-	printf("ft: %s$\n\n", y);
-}
-*/

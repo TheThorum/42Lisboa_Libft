@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 11:23:29 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/10/28 19:35:26 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:58:21 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,16 +36,3 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	}
 	return (y + size);
 }
-
-// int	main(void)
-// {
-// 	char			dest[100] = "This is";
-// 	char			src[] = "agarbage exercise";
-// 	unsigned int	size;
-
-// 	size = 0;
-// 	printf("\nOriginal String: %s\n\n", dest);
-// 	printf("Actual Function Value returned: %lu\n\n", strlcat(dest, src, size));
-// 	printf("My Function Value returned: %u\n\n", ft_strlcat(dest, src, size));
-// 	printf("String after function: %s\n\n", dest);
-// }

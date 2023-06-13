@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 16:23:57 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/12/23 03:14:56 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:58:00 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,21 +73,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (split_str);
 }
-/*
-int	main(void)
-{
-	char const	s[] = "Tripouille";
-	char		**split_s;
-	char		c = ' ';
-	int			x;
-
-	split_s = ft_split(s, c);
-	x = 0;
-	while (x < stringcount(s, c))
-	{
-		printf("%s\n", split_s[x]);
-		x++;
-	}
-	printf("%zu\n", malloc_size(split_s)/sizeof(char *));
-}
-*/

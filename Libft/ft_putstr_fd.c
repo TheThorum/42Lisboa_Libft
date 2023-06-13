@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 16:28:38 by mdo-carm          #+#    #+#             */
-/*   Updated: 2021/12/22 18:37:17 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:57:55 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-/*
-int	main(void)
-{
-	// char	s[] = "Hello World!";
-
-	ft_putstr_fd(0, 1);
-}
-*/

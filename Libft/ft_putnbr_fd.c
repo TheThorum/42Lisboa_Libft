@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 16:44:26 by mdo-carm          #+#    #+#             */
-/*   Updated: 2022/02/11 19:56:15 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:57:50 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,3 @@ void	ft_putnbr_fd(int n, int fd)
 		write(fd, &x, 1);
 	}
 }
-/*
-int	main(void)
-{
-	int	n = -21474836;
-
-	ft_putnbr_fd(n, 1);
-}
-*/

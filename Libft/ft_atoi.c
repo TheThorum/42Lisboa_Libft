@@ -6,7 +6,7 @@
 /*   By: mdo-carm <mdo-carm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 11:23:36 by mdo-carm          #+#    #+#             */
-/*   Updated: 2022/03/14 17:22:58 by mdo-carm         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:56:23 by mdo-carm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,14 +45,3 @@ int	ft_atoi(const char *str)
 	}
 	return (number * nr_sign);
 }
-/*
-int	main(void)
-{
-	char n[40] = "";
-	int i1 = atoi(n);
-	int i2 = ft_atoi(n);
-
-	printf("Original function: %d\n\n", i1);
-	printf("My function      : %d\n\n", i2);
-}
-*/
